@@ -556,8 +556,36 @@ video {
   --tw-contain-style:  ;
 }
 
+.static{
+  position: static;
+}
+
+.relative{
+  position: relative;
+}
+
+.sticky{
+  position: sticky;
+}
+
 .top-10{
   top: 2.5rem;
+}
+
+.top-0{
+  top: 0px;
+}
+
+.z-10{
+  z-index: 10;
+}
+
+.z-50{
+  z-index: 50;
+}
+
+.-z-50{
+  z-index: -50;
 }
 
 .m-10{
@@ -621,8 +649,16 @@ video {
   flex-direction: column;
 }
 
+.justify-end{
+  justify-content: flex-end;
+}
+
 .justify-center{
   justify-content: center;
+}
+
+.justify-around{
+  justify-content: space-around;
 }
 
 .gap-0{
@@ -639,6 +675,10 @@ video {
 
 .gap-4{
   gap: 1rem;
+}
+
+.scroll-smooth{
+  scroll-behavior: smooth;
 }
 
 .rounded-xl{
@@ -707,6 +747,11 @@ video {
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.px-3{
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 
 .text-left{
@@ -834,11 +879,6 @@ video {
 .hover\:text-blue-800:hover{
   --tw-text-opacity: 1;
   color: rgb(30 64 175 / var(--tw-text-opacity));
-}
-
-.hover\:text-yellow-400:hover{
-  --tw-text-opacity: 1;
-  color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
 .hover\:text-yellow-500:hover{

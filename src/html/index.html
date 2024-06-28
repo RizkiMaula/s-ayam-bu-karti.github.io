@@ -1,5 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html
+  lang="en"
+  class="scroll-smooth"
+>
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -22,53 +25,48 @@
     <title>Soto Ayam Bu Karti</title>
   </head>
   <body>
-    <header>
+    <header class="sticky top-0 flex justify-around px-3 text-center drop-shadow-xl bg-secondary text-blue-50 shadow-slate-800">
       <!-- Navbar -->
-      <div class="flex justify-center py-3 text-center bg-prime text-blue-50">
-        <a
-          href=""
-          class="hover:drop-shadow-xl"
-        >
-          <img
-            src="../assets/Bu karti (1).png"
-            alt="Soto Ayam Bu Karti"
-            class="h-16"
-          />
-        </a>
-      </div>
-      <div class="flex justify-center py-3 text-center drop-shadow-xl bg-secondary text-blue-50 shadow-slate-800">
-        <ul class="flex flex-row text-lg font-bold text-center text-bold">
+      <a href="#">
+        <img
+          src="../assets/Bu karti (1).png"
+          alt=""
+          class="h-16"
+        />
+      </a>
+      <div class="flex flex-col justify-center">
+        <ul class="top-0 flex flex-row text-lg font-bold text-center text-bold">
           <li>
             <a
-              href="#"
+              href="#icon"
               class="p-4 hover:text-blue-700 hover:duration-300 hover:bg-slate-800"
               >OUR ICON</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="#people"
               class="p-4 hover:text-blue-700 hover:duration-300 hover:bg-slate-800"
               >WHAT DO PEOPLE SAY?</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="#menu"
               class="p-4 hover:text-blue-700 hover:duration-300 hover:bg-slate-800"
               >MENU</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="#deals"
               class="p-4 hover:text-blue-700 hover:duration-300 hover:bg-slate-800"
               >DEALS</a
             >
           </li>
           <li>
             <a
-              href="#"
+              href="#anthem"
               class="p-4 hover:text-blue-700 hover:duration-300 hover:bg-slate-800"
               >ANTHEM</a
             >
@@ -78,15 +76,19 @@
               href="#"
               class="p-4 hover:text-blue-700 hover:duration-300 hover:bg-slate-800"
             >
-              <i class="text-white fa-brands fa-whatsapp"></i> ORDER NOW
+              <i class="text-white fa-brands fa-whatsapp"></i> BOOKING NOW
             </a>
           </li>
         </ul>
       </div>
+      <!-- </div> -->
     </header>
     <main>
       <!-- OUR ICON -->
-      <article class="flex flex-col gap-4 p-10 text-center text-yellow-300 bg-slate-950 font-roboto">
+      <article
+        class="flex flex-col gap-4 p-10 text-center text-yellow-300 bg-slate-950 font-roboto"
+        id="icon"
+      >
         <h1 class="text-2xl font-semibold">OUR ICON</h1>
         <div class="flex gap-4">
           <img
@@ -110,7 +112,10 @@
       </article>
 
       <!-- WHAT DO PEOPLE SAY? -->
-      <div class="flex flex-col gap-1 text-center border-4">
+      <div
+        class="flex flex-col gap-1 text-center border-4"
+        id="people"
+      >
         <h2 class="text-2xl font-semibold">WHAT DO PEOPLE SAY?</h2>
         <div class="grid w-full grid-cols-3 p-3">
           <!-- Cards -->
@@ -393,8 +398,11 @@
       </div>
 
       <!-- Menu -->
-      <div class="flex flex-col gap-1 text-center border-4">
-        <h2 class="text-2xl font-semibold">Menu</h2>
+      <div
+        class="flex flex-col gap-1 text-center border-4"
+        id="menu"
+      >
+        <h2 class="text-2xl font-semibold">MENU</h2>
         <div class="flex justify-center w-full p-3 gap">
           <!-- Cards -->
           <div class="flex flex-col gap-1 p-5 text-center bg-black w-max font-roboto">
@@ -660,7 +668,10 @@
       <article class="flex flex-col gap-4 p-10 text-center text-yellow-300 bg-slate-950 font-roboto">
         <h1 class="text-2xl font-semibold">SOTO AYAM BU KARTI</h1>
 
-        <div class="flex flex-col justify-center gap-4 text-center">
+        <div
+          class="flex flex-col justify-center gap-4 text-center"
+          id="anthem"
+        >
           <iframe
             style="border-radius: 12px"
             src="https://open.spotify.com/embed/track/72dZqdECiyqQNaC49ssBDH?utm_source=generator"
@@ -702,7 +713,9 @@
         </div>
       </article>
       <footer class="flex flex-col justify-center gap-3 p-3 text-center bg-black">
-        <p class="text-sm text-gray-500">This site is inspired by Mamang Kesbor - Soto Ayam Bu Karti and for educational purpose only. I have no related or affiliate to Mamang Kesbor or Madrial and i don't mean "SOK ASIK" to him.</p>
+        <p class="text-sm text-gray-500">
+          This site is inspired by Mamang Kesbor - Soto Ayam Bu Karti, and is for educational purposes only. I am not related to or affiliated with Mamang Kesbor or Madrial, and I don't mean "SOK ASIK" to him.
+        </p>
         <p class="text-sm text-gray-500">© Free Copyright</p>
       </footer>
     </main>
