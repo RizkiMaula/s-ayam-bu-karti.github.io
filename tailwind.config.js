@@ -4,9 +4,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        prime: '#F5FF8D',
-        secondary: '#50CB86',
-        black: '#312F44',
+        ijoterang: '#A5DD9B',
+        ijopudar: '#C5EBAA',
+        kuning: '#F6F193',
+        pink: '#F2C18D',
       },
       fontFamily: {
         roboto: ['Roboto'],
