@@ -26,57 +26,103 @@
   </head>
   <body>
     <!-- Navbar -->
-    <header class="sticky top-0 flex justify-around px-3 text-center text-black lg:flex-row lg:justify-around md:justify-center sm:justify-center md:flex-col sm:flex-col drop-shadow-xl bg-secondary shadow-slate-800">
-      <div class="flex lg:justify-center md:justify-center sm:justify-center lg:mb-0 md:mb-3 sm:mb-3">
+    <nav class="bg-secondary">
+      <div class="flex border-4 border-red-800 md:justify-center sm:justify-center lg:justify-around">
         <a href="#">
           <img
             src="../assets/Bu karti (1).png"
-            alt=""
-            class="h-16"
+            alt="logo"
+            class="lg:w-[14rem] md:w-[30vh] sm:w-[30vh] lg:h-[5rem] md:h-[15vh] sm:h-[15vh]"
           />
         </a>
-      </div>
-      <div class="flex flex-col lg:justify-center">
-        <ul class="top-0 flex font-bold text-center lg:flex-row md:text-sm sm:text-xs text-bold md:justify-center sm:justify-center">
+        <ul class="lg:flex lg:items-center lg:flex-row md:hidden sm:hidden">
           <li>
             <a
               href="#people"
-              class="p-4 lg:hover:text-blue-700 lg:hover:duration-300 lg:hover:bg-slate-800"
-              >TESTIMONIAL</a
+              class="p-3 hover:text-slate-400 hover:duration-300"
+              >Testimonial</a
             >
           </li>
           <li>
             <a
               href="#menu"
-              class="lg:p-4 md:p-3 sm:p-2 lg:hover:text-blue-700 lg:hover:duration-300 lg:hover:bg-slate-800"
-              >MENU</a
+              class="p-3 hover:text-slate-400 hover:duration-300"
+              >Menu</a
             >
           </li>
           <li>
             <a
               href="#deals"
-              class="lg:p-4 md:p-3 sm:p-2 lg:hover:text-blue-700 lg:hover:duration-300 lg:hover:bg-slate-800"
-              >DEALS</a
+              class="p-3 hover:text-slate-400 hover:duration-300"
+              >Deals</a
             >
           </li>
           <li>
             <a
               href="#anthem"
-              class="lg:p-4 md:p-3 sm:p-2 lg:hover:text-blue-700 lg:hover:duration-300 lg:hover:bg-slate-800"
-              >ANTHEM</a
+              class="p-3 hover:text-slate-400 hover:duration-300"
+              >Anthem</a
             >
           </li>
           <li>
             <a
-              href="#"
-              class="lg:p-4 md:p-3 sm:p-2 lg:hover:text-blue-700 lg:hover:duration-300 lg:hover:bg-slate-800"
+              href="#people"
+              class="p-3 hover:text-slate-400 hover:duration-300"
+              ><i class="fa-brands fa-whatsapp"></i> Booking Now</a
             >
-              <i class="text-black fa-brands fa-whatsapp"></i> BOOKING NOW
+          </li>
+        </ul>
+      </div>
+      <div class="flex justify-center">
+        <ul class="flex border-4 w-[100%] fixed bottom-0 items-center justify-evenly p-3 bg-white lg:hidden">
+          <li class="text-black">
+            <a
+              href="#"
+              class="flex flex-col items-center"
+            >
+              <i class="fa-solid fa-home"></i>
+              <span>Home</span>
+            </a>
+          </li>
+          <li class="text-black">
+            <a
+              href="#people"
+              class="flex flex-col items-center"
+            >
+              <i class="fa-solid fa-users"></i>
+              <span>Testimonial</span>
+            </a>
+          </li>
+          <li class="text-black">
+            <a
+              href="#menu"
+              class="flex flex-col items-center"
+            >
+              <i class="fa-solid fa-receipt"></i>
+              <span>Menu</span>
+            </a>
+          </li>
+          <li class="text-black">
+            <a
+              href="#deals"
+              class="flex flex-col items-center"
+            >
+              <i class="fa-solid fa-percent"></i>
+              <span>Deals</span>
+            </a>
+          </li>
+          <li class="text-black">
+            <a
+              href="#anthem"
+              class="flex flex-col items-center"
+            >
+              <i class="fa-solid fa-music"></i>
+              <span>Anthem</span>
             </a>
           </li>
         </ul>
       </div>
-    </header>
+    </nav>
     <main>
       <!-- OUR ICON -->
       <article
@@ -693,12 +739,12 @@
           </div>
         </div>
       </article>
-      <footer class="flex flex-col justify-center gap-3 p-3 text-center bg-secondary">
-        <p class="text-sm text-accent2">
-          This site is inspired by Mamang Kesbor - Soto Ayam Bu Karti, and is for educational purposes only. I am not related to or affiliated with Mamang Kesbor or Madrial, and I don't mean "SOK ASIK" to him.
-        </p>
-        <p class="text-sm text-accent2">© Free Copyright</p>
-      </footer>
     </main>
+    <footer class="flex flex-col justify-center gap-3 text-center bg-secondary lg:p-3 md:pb-[5.7rem] sm:pb-[5.7rem]">
+      <p class="text-sm text-accent2">
+        This site is inspired by Mamang Kesbor - Soto Ayam Bu Karti, and is for educational purposes only. I am not related to or affiliated with Mamang Kesbor or Madrial, and I don't mean "SOK ASIK" to him.
+      </p>
+      <p class="text-sm text-accent2">© Free Copyright</p>
+    </footer>
   </body>
 </html>
